@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollege_DY", "BITCollege_DY\BITCollege_DY.csproj", "{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB5D41CA-C26B-4D6E-90E9-F0C7C201C750}
+	EndGlobalSection
+EndGlobal
