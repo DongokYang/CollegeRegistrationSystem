@@ -19,7 +19,7 @@ namespace BITCollege_DY.Controllers
         public ActionResult Index()
         {
             var regularStates = db.GradePointStates.OfType<RegularState>().ToList();
-            return View(regularStates);
+            return View(RegularState.GetInstance());
         }
 
         // GET: RegularStates/Details/5

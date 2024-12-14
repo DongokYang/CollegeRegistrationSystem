@@ -33,6 +33,8 @@ namespace BITCollege_DY.Data
         public System.Data.Entity.DbSet<BITCollege_DY.Models.GradedCourse> GradedCourses { get; set; }
         public System.Data.Entity.DbSet<BITCollege_DY.Models.SuspendedState> SuspendedStates { get; set; }
         public System.Data.Entity.DbSet<BITCollege_DY.Models.ProbationState> ProbationStates { get; set; }
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.RegularState> RegularStates { get; set; }
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.HonoursState> HonoursStates { get; set; }
 
     }
 }

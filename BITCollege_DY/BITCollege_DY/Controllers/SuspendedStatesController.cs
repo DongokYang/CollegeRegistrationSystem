@@ -19,7 +19,7 @@ namespace BITCollege_DY.Controllers
         public ActionResult Index()
         {
             var suspendedStates = db.GradePointStates.OfType<SuspendedState>().ToList();
-            return View(suspendedStates);
+            return View(SuspendedState.GetInstance());
         }
 
         // GET: SuspendedStates/Details/5

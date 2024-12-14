@@ -97,28 +97,20 @@ namespace BITCollege_DY.Models
 
         public void ChangeState()
         {
-            // no if statements
-            // no recursion
+            BITCollege_DYContext db = new BITCollege_DYContext();
+            GradePointState currentState = db.GradePointStates.Find(GradePointStateId);
+            int previousId = 0;
 
-            // step 1 : get an instance of the context object
-
-            // step 2 : 
-            // GradePointState currentState = db.GradePointStates.Find(GradePointStateId);
-
-            // step3 : 
-            // int previous id = 0;
-
-            // step4 : Loop 
-            // while(previousId != currentState.GradepointStateId)
-            // { 
-                // currentState.StateChangeCheck(this);
-                // previousId = currentState.GradePointStateId
-                // currentState = db.GradePointStates.Find(GradePointStateId);
-                // 
-            // } 
-
+            while (previousId != currentState.GradepointStateId)
+            {
+                currentState.StateChangeCheck(this);
+                previousId = currentState.GradepointStateId;
+                currentState = db.GradePointStates.Find(GradePointStateId);
+                db.SaveChanges();
+            }
+            db.Dispose();
         }
-    }
+}
 
     /// <summary>
     /// Represents an academic program
@@ -199,41 +191,245 @@ namespace BITCollege_DY.Models
     public class SuspendedState : GradePointState
     {
         private static SuspendedState suspendedState;
+
+    /// <summary>
+    /// Creates and instance of Suspended State
+    /// </summary>
+    private SuspendedState()
+    {
+        LowerLimit = 0.00;
+        UpperLimit = 1.00;
+        TuitionRateFactor = 1.1;
     }
+    /// <summary>
+    /// Ensures an instance of the Suspended State
+    /// </summary>
+    /// <returns>and Instance of Suspended State</returns>
+    public static SuspendedState GetInstance()
+    {
+        if (suspendedState == null)
+        {
+            suspendedState = db.SuspendedStates.SingleOrDefault();
+            if (suspendedState == null)
+            {
+                suspendedState = new SuspendedState();
+                db.SuspendedStates.Add(suspendedState);
+                db.SaveChanges();
+            }
+        }
+        return suspendedState;
+    }
+
+    /// <summary>
+    /// Checks for a change in state
+    /// </summary>
+    /// <param name="student">a student object</param>
+    /// <exception cref="NotImplementedException"></exception>
+    public override void StateChangeCheck(Student student)
+    {
+        if (student.GradePointAverage > 1)
+        {
+            student.GradePointStateId = ProbationState.GetInstance().GradepointStateId;
+        }
+            db.SaveChanges();
+
+        }
+    /// <summary>
+    /// Adjust's the students tuition rate
+    /// </summary>
+    /// <param name="student"> a student object</param>
+    /// <returns>the adjusted tuition rate</returns>
+    public override double TuitionRateAdjustment(Student student)
+    {
+        double adjustTuition = TuitionRateFactor;
+        double currentGpa = student.GradePointAverage ?? 0.0;
+        
+        // test after replacing currentGpa > student.GradePointAverage
+        if (currentGpa < 0.75)
+        {
+             adjustTuition += .02;
+        }
+        else if (currentGpa < 0.5)
+        {
+             adjustTuition += .05;
+        }
+            return adjustTuition;
+    }
+}
 
     /// <summary>
     /// Represents a probation state
     /// </summary>
     public class ProbationState : GradePointState
-    {
-        private static ProbationState probationState;
-
-        /// <summary>
-        /// Creates and instance of Probation State
-        /// </summary>
-        private ProbationState()
-            {
-            LowerLimit = 1.00;
-            UpperLimit = 2.00;
-            TuitionRateFactor = 1.075;
-            }
-        /// <summary>
-        /// Ensures an instance of the Probation state
-        /// </summary>
-        /// <returns>and Instance of Probation State</returns>
-        public static ProbationState GetInstance()
         {
-            if(probationState == null)
+            private static ProbationState probationState;
+
+            /// <summary>
+            /// Creates and instance of Probation State
+            /// </summary>
+            private ProbationState()
+                {
+                LowerLimit = 1.00;
+                UpperLimit = 2.00;
+                TuitionRateFactor = 1.075;
+                }
+            /// <summary>
+            /// Ensures an instance of the Probation state
+            /// </summary>
+            /// <returns>and Instance of Probation State</returns>
+            public static ProbationState GetInstance()
             {
-                probationState = db.ProbationStates.SingleOrDefault();
                 if(probationState == null)
                 {
-                    probationState= new ProbationState();
-                    db.ProbationStates.Add(probationState);
+                    probationState = db.ProbationStates.SingleOrDefault();
+                    if(probationState == null)
+                    {
+                        probationState= new ProbationState();
+                        db.ProbationStates.Add(probationState);
+                        db.SaveChanges();
+                    }
+                }
+                return probationState;
+            }
+
+            /// <summary>
+            /// Checks for a change in state
+            /// </summary>
+            /// <param name="student">a student object</param>
+            /// <exception cref="NotImplementedException"></exception>
+            public override void StateChangeCheck(Student student)
+            {
+                if(student.GradePointAverage < 1)
+                {
+                    student.GradePointStateId = SuspendedState.GetInstance().GradepointStateId;
+            }
+                if (student.GradePointAverage > 2)
+                {
+                    student.GradePointStateId = RegularState.GetInstance().GradepointStateId;
+            }
+            db.SaveChanges();
+        }
+            /// <summary>
+            /// Adjust's the students tuition rate
+            /// </summary>
+            /// <param name="student"> a student object</param>
+            /// <returns>the adjusted tuition rate</returns>
+            public override double TuitionRateAdjustment(Student student)
+            {
+                // use a local variable (super important) 
+                //x. >> local  
+                // lambda operation 공부하기  
+                double adjustTuition = TuitionRateFactor;
+                IQueryable<Registration> registrations = 
+                    db.Registrations.Where(x => x.StudentId == student.StudentId && x.Grade != null); 
+            
+                if(registrations.Count() >= 5)
+                {
+                    adjustTuition -= .04;
+                }
+
+                return adjustTuition;
+            }
+        }
+
+    /// <summary>
+    /// Represents a regular state
+    /// </summary>
+    public class RegularState : GradePointState
+        {
+            private static RegularState regularState;
+
+        /// <summary>
+        /// Creates and instance of Regular State
+        /// </summary>
+        private RegularState()
+        {
+            LowerLimit = 2.00;
+            UpperLimit = 3.70;
+            TuitionRateFactor = 1.0;
+        }
+        /// <summary>
+        /// Ensures an instance of the Regular state
+        /// </summary>
+        /// <returns>and Instance of Regular State</returns>
+        public static RegularState GetInstance()
+        {
+            if (regularState == null)
+            {
+                    regularState = db.RegularStates.SingleOrDefault();
+                if (regularState == null)
+                {
+                    regularState = new RegularState();
+                    db.RegularStates.Add(regularState);
                     db.SaveChanges();
                 }
             }
-            return probationState;
+            return regularState;
+        }
+
+
+        /// <summary>
+        /// Checks for a change in state
+        /// </summary>
+        /// <param name="student">a student object</param>
+        /// <exception cref="NotImplementedException"></exception>
+        public override void StateChangeCheck(Student student)
+        {
+            if (student.GradePointAverage < 2)
+            {
+                student.GradePointStateId = ProbationState.GetInstance().GradepointStateId;
+            }
+            if (student.GradePointAverage > 3.7)
+            {
+                student.GradePointStateId = HonoursState.GetInstance().GradepointStateId;
+            }
+            db.SaveChanges();
+        }
+        /// <summary>
+        /// Adjust's the students tuition rate
+        /// </summary>
+        /// <param name="student"> a student object</param>
+        /// <returns>the adjusted tuition rate</returns>
+        public override double TuitionRateAdjustment(Student student)
+        { 
+            double adjustTuition = TuitionRateFactor;
+            return adjustTuition;
+        }
+    }
+
+    /// <summary>
+    /// Represents an honours state
+    /// </summary>
+    public class HonoursState : GradePointState
+        {
+            private static HonoursState honoursState;
+
+        /// <summary>
+        /// Creates and instance of Honours State
+        /// </summary>
+        private HonoursState()
+        {
+            LowerLimit = 3.70;
+            UpperLimit = 4.50;
+            TuitionRateFactor = 0.9;
+        }
+        /// <summary>
+        /// Ensures an instance of the Honours state
+        /// </summary>
+        /// <returns>and Instance of Honours State</returns>
+        public static HonoursState GetInstance()
+        {
+            if (honoursState == null)
+            {
+                honoursState = db.HonoursStates.SingleOrDefault();
+                if (honoursState == null)
+                {
+                    honoursState = new HonoursState();
+                    db.HonoursStates.Add(honoursState);
+                    db.SaveChanges();
+                }
+            }
+            return honoursState;
         }
 
         /// <summary>
@@ -243,14 +439,11 @@ namespace BITCollege_DY.Models
         /// <exception cref="NotImplementedException"></exception>
         public override void StateChangeCheck(Student student)
         {
-            if(student.GradePointAverage < 1)
+            if (student.GradePointAverage < 3.7)
             {
-                student.GradePointStateId = SuspendedState.GetInstance().GradePointStateId;
+                student.GradePointStateId = RegularState.GetInstance().GradepointStateId;
             }
-            if (student.GradePointAverage > 2)
-            {
-                student.GradePointStateId = RegularState.GetInstance().GradePointStateId;
-            }
+            db.SaveChanges();
         }
         /// <summary>
         /// Adjust's the students tuition rate
@@ -258,45 +451,29 @@ namespace BITCollege_DY.Models
         /// <param name="student"> a student object</param>
         /// <returns>the adjusted tuition rate</returns>
         public override double TuitionRateAdjustment(Student student)
-        {
-            // use a local variable (super important) 
-            //x. >> local  
-            // lambda operation 공부하기  
+        { 
             double adjustTuition = TuitionRateFactor;
-            IQueryable<Registration> registrations = 
-                db.Registrations.Where(x => x.StudentId == student.StudentId && x.Grade != null); 
-            
-            if(registrations.Count() >= 5)
-            {
-                adjustTuition -= .04;
-            }
+            double currentGpa = student.GradePointAverage ?? 0.0;
+            IQueryable<Registration> registrations =
+                db.Registrations.Where(x => x.StudentId == student.StudentId && x.Grade != null);
 
+            if (registrations.Count() >= 5)
+            {
+                adjustTuition -= .05;
+            }
+            if (currentGpa > 4.25)
+            {
+                adjustTuition -= .02;
+            }
             return adjustTuition;
         }
     }
 
-    /// <summary>
-    /// Represents a regular state
-    /// </summary>
-    public class RegularState : GradePointState
-    {
-        private static RegularState regularState;
-    }
 
-    /// <summary>
-    /// Represents an honours state
-    /// </summary>
-    public class HonoursState : GradePointState
-    {
-        private static HonoursState honoursState;
-
-    }
-
-
-    /// <summary>
-    /// Represents a course
-    /// </summary>
-    public abstract class Course
+/// <summary>
+/// Represents a course
+/// </summary>
+public abstract class Course
     {
         [Key]
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
