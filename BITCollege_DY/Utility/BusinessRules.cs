@@ -153,10 +153,22 @@ namespace Utility
         /// appropriate error message based on the received errorCode.
         /// </summary>
         /// <param name="errorCode">Integer code indicating error type.</param>
-        /// <returns></returns>
+        /// <returns>
+        /// Returns coresponding string to the error code
+        /// </returns>
         public static string RegisterError(int errorCode)
         {
-            return string.Empty;
+            switch (errorCode)
+            {
+                case -100:
+                    return "Student cannot register for a course in which there is already an ungraded registration.";
+                case -200:
+                    return "Student has exceeded maximum attempts on mastery course.";
+                case -300:
+                    return "An error has occurred while updating the registration.";
+                default:
+                    return "Unknown error.";
+            }
         }
     }
 }

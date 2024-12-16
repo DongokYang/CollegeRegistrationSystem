@@ -323,9 +323,6 @@ namespace BITCollege_DY.Models
         /// <returns>the adjusted tuition rate</returns>
         public override double TuitionRateAdjustment(Student student)
         {
-            // use a local variable (super important) 
-            //x. >> local  
-            // lambda operation 공부하기  
             double adjustTuition = TuitionRateFactor;
             IQueryable<Registration> registrations =
                 db.Registrations.Where(x => x.StudentId == student.StudentId && x.Grade != null);

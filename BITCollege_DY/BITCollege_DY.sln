@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollege_DY", "BITCollege
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utility", "Utility\Utility.csproj", "{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BITCollegeService", "BITCollegeService\BITCollegeService.csproj", "{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EE02E5-5786-4C05-BE13-A9CCA941F3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

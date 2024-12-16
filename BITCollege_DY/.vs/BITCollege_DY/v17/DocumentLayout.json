@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\",
+  "WorkspaceRootPath": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 05 Files\\BITCollege_DY\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\models\\schoolmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\models\\schoolmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}|BITCollegeService\\BITCollegeService.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 05 files\\bitcollege_dy\\bitcollegeservice\\collegeregistration.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}|BITCollegeService\\BITCollegeService.csproj|solutionrelative:bitcollegeservice\\collegeregistration.svc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\controllers\\masterycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\controllers\\masterycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\migrations\\202410211813505_migrationbeforetesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\migrations\\202410211813505_migrationbeforetesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}|BITCollegeService\\BITCollegeService.csproj|C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 05 Files\\BITCollege_DY\\bitcollegeservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BE9F72C5-0EA5-4041-B35A-CAE0814F8DA4}|BITCollegeService\\BITCollegeService.csproj|solutionrelative:bitcollegeservice\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,74 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SchoolModels.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Models\\SchoolModels.cs",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Models\\SchoolModels.cs",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Models\\SchoolModels.cs",
-              "RelativeToolTip": "BITCollege_DY\\Models\\SchoolModels.cs",
-              "ViewState": "AQIAALECAAAAAAAAAAAAwCIDAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-16T19:16:51.792Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MasteryCoursesController.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
-              "RelativeToolTip": "BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwDsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T18:54:47.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "BITCollege_DY\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAgwDkAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T18:50:40.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Web.config",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Web.config",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Web.config",
-              "RelativeToolTip": "BITCollege_DY\\Web.config",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-10-21T18:42:01.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "202410211813505_Migrationbeforetesting.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
-              "RelativeToolTip": "BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-21T18:13:54.36Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
@@ -105,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollegeRegistration.svc.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 05 Files\\BITCollege_DY\\BITCollegeService\\CollegeRegistration.svc.cs",
+              "RelativeDocumentMoniker": "BITCollegeService\\CollegeRegistration.svc.cs",
+              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 05 Files\\BITCollege_DY\\BITCollegeService\\CollegeRegistration.svc.cs",
+              "RelativeToolTip": "BITCollegeService\\CollegeRegistration.svc.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAkwA0AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T18:08:11.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 05 Files\\BITCollege_DY\\BITCollegeService\\Web.config",
+              "RelativeDocumentMoniker": "BITCollegeService\\Web.config",
+              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 05 Files\\BITCollege_DY\\BITCollegeService\\Web.config",
+              "RelativeToolTip": "BITCollegeService\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-11-17T23:57:57.999Z",
+              "EditorCaption": ""
             }
           ]
         }
