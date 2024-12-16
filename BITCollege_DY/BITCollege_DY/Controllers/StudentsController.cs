@@ -54,6 +54,8 @@ namespace BITCollege_DY.Controllers
         {
             if (ModelState.IsValid)
             {
+
+                student.SetNextStudentNumber();
                 db.Students.Add(student);
                 student.ChangeState();
                 db.SaveChanges();

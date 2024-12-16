@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\models\\schoolmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\bitcollege_dy\\data\\bitcollege_dycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\data\\bitcollege_dycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\bitcollege_dy\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\bitcollege_dy\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\controllers\\masterycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\controllers\\masterycoursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|c:\\users\\marti\\onedrive\\rrc\\adev\\assignment 03 files\\bitcollege_dy\\bitcollege_dy\\migrations\\202410211813505_migrationbeforetesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D76F8BC0-89C1-4AE3-9378-0538C54DDE34}|BITCollege_DY\\BITCollege_DY.csproj|solutionrelative:bitcollege_dy\\migrations\\202410211813505_migrationbeforetesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,10 +40,62 @@
               "RelativeDocumentMoniker": "BITCollege_DY\\Models\\SchoolModels.cs",
               "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Models\\SchoolModels.cs",
               "RelativeToolTip": "BITCollege_DY\\Models\\SchoolModels.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAuwGAAAAAAAAAA",
+              "ViewState": "AQIAALECAAAAAAAAAAAAwCIDAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T19:16:51.792Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MasteryCoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
+              "RelativeDocumentMoniker": "BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
+              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
+              "RelativeToolTip": "BITCollege_DY\\Controllers\\MasteryCoursesController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwDsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:54:47.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "BITCollege_DY\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "BITCollege_DY\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwDkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:50:40.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Web.config",
+              "RelativeDocumentMoniker": "BITCollege_DY\\Web.config",
+              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Web.config",
+              "RelativeToolTip": "BITCollege_DY\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-21T18:42:01.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "202410211813505_Migrationbeforetesting.cs",
+              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
+              "RelativeDocumentMoniker": "BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
+              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
+              "RelativeToolTip": "BITCollege_DY\\Migrations\\202410211813505_Migrationbeforetesting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T18:13:54.36Z",
               "EditorCaption": ""
             },
             {
@@ -49,43 +105,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BITCollege_DYContext.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Data\\BITCollege_DYContext.cs",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Data\\BITCollege_DYContext.cs",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Data\\BITCollege_DYContext.cs",
-              "RelativeToolTip": "BITCollege_DY\\Data\\BITCollege_DYContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T15:05:06.722Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Views\\Students\\Edit.cshtml",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Views\\Students\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Views\\Students\\Edit.cshtml",
-              "RelativeToolTip": "BITCollege_DY\\Views\\Students\\Edit.cshtml",
-              "ViewState": "AQIAAAsAAAAAAAAAAAApwBoAAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-03T14:39:15.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\StudentsController.cs",
-              "RelativeDocumentMoniker": "BITCollege_DY\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\marti\\OneDrive\\RRC\\ADEV\\Assignment 03 Files\\BITCollege_DY\\BITCollege_DY\\Controllers\\StudentsController.cs",
-              "RelativeToolTip": "BITCollege_DY\\Controllers\\StudentsController.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAYwEAAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T14:34:19.849Z"
             }
           ]
         }

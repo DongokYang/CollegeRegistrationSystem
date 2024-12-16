@@ -53,6 +53,8 @@ namespace BITCollege_DY.Controllers
         {
             if (ModelState.IsValid)
             {
+                auditCourse.SetNextCourseNumber();
+
                 db.AuditCourses.Add(auditCourse);
                 db.SaveChanges();
                 return RedirectToAction("Index");

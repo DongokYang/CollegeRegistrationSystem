@@ -168,3 +168,11 @@ C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY
 C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITColle.789766AF.Up2Date
 C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.dll
 C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.pdb
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.Migrations.InitialCreate.resources
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.csproj.GenerateResource.cache
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.Migrations.AddNextUniqueNumberModels.resources
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.Migrations.AddNextUniqueNumberModels1.resources
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.Migrations.AddNextUniqueNumberModels2.resources
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.Properties.Resource.resources
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.Migrations.StoredProcedures.resources
+C:\Users\marti\OneDrive\RRC\ADEV\Assignment 03 Files\BITCollege_DY\BITCollege_DY\obj\Debug\BITCollege_DY.Migrations.Migrationbeforetesting.resources

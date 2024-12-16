@@ -36,5 +36,11 @@ namespace BITCollege_DY.Data
         public System.Data.Entity.DbSet<BITCollege_DY.Models.RegularState> RegularStates { get; set; }
         public System.Data.Entity.DbSet<BITCollege_DY.Models.HonoursState> HonoursStates { get; set; }
 
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.NextUniqueNumber> NextUniqueNumbers { get; set; }
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.NextStudent> NextStudents { get; set; }
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.NextGradedCourse> NextGradedCourses { get; set; }
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.NextAuditCourse> NextAuditCourses { get; set; }
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.NextMasteryCourse> NextMasteryCourses { get; set; }
+        public System.Data.Entity.DbSet<BITCollege_DY.Models.NextRegistration> NextRegistrations { get; set; }
     }
 }

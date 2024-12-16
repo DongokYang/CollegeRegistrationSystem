@@ -135,6 +135,12 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HonoursStatesController.cs" />
     <Compile Include="Controllers\MasteryCoursesController.cs" />
+    <Compile Include="Controllers\NextAuditCoursesController.cs" />
+    <Compile Include="Controllers\NextGradedCoursesController.cs" />
+    <Compile Include="Controllers\NextMasteryCoursesController.cs" />
+    <Compile Include="Controllers\NextRegistrationsController.cs" />
+    <Compile Include="Controllers\NextStudentsController.cs" />
+    <Compile Include="Controllers\NextUniqueNumbersController.cs" />
     <Compile Include="Controllers\ProbationStatesController.cs" />
     <Compile Include="Controllers\RegistrationsController.cs" />
     <Compile Include="Controllers\RegularStatesController.cs" />
@@ -144,8 +150,38 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202409182126003_InitialCreate.cs" />
+    <Compile Include="Migrations\202409182126003_InitialCreate.Designer.cs">
+      <DependentUpon>202409182126003_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410170507382_AddNextUniqueNumberModels.cs" />
+    <Compile Include="Migrations\202410170507382_AddNextUniqueNumberModels.Designer.cs">
+      <DependentUpon>202410170507382_AddNextUniqueNumberModels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410202340354_AddNextUniqueNumberModels1.cs" />
+    <Compile Include="Migrations\202410202340354_AddNextUniqueNumberModels1.Designer.cs">
+      <DependentUpon>202410202340354_AddNextUniqueNumberModels1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410210019158_AddNextUniqueNumberModels2.cs" />
+    <Compile Include="Migrations\202410210019158_AddNextUniqueNumberModels2.Designer.cs">
+      <DependentUpon>202410210019158_AddNextUniqueNumberModels2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410210338255_StoredProcedures.cs" />
+    <Compile Include="Migrations\202410210338255_StoredProcedures.Designer.cs">
+      <DependentUpon>202410210338255_StoredProcedures.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202410211813505_Migrationbeforetesting.cs" />
+    <Compile Include="Migrations\202410211813505_Migrationbeforetesting.Designer.cs">
+      <DependentUpon>202410211813505_Migrationbeforetesting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\SchoolModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-grid.css" />
@@ -167,6 +203,8 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Migrations\SQL\create_next_number.sql" />
+    <Content Include="Migrations\SQL\drop_next_number.sql" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -248,11 +286,32 @@
     <Content Include="Views\AuditCourses\Details.cshtml" />
     <Content Include="Views\AuditCourses\Edit.cshtml" />
     <Content Include="Views\AuditCourses\Index.cshtml" />
+    <Content Include="Views\NextAuditCourses\Delete.cshtml" />
+    <Content Include="Views\NextAuditCourses\Details.cshtml" />
+    <Content Include="Views\NextAuditCourses\Edit.cshtml" />
+    <Content Include="Views\NextGradedCourses\Delete.cshtml" />
+    <Content Include="Views\NextGradedCourses\Details.cshtml" />
+    <Content Include="Views\NextGradedCourses\Edit.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Delete.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Details.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Edit.cshtml" />
+    <Content Include="Views\NextRegistrations\Delete.cshtml" />
+    <Content Include="Views\NextRegistrations\Details.cshtml" />
+    <Content Include="Views\NextRegistrations\Edit.cshtml" />
+    <Content Include="Views\NextStudents\Delete.cshtml" />
+    <Content Include="Views\NextStudents\Details.cshtml" />
+    <Content Include="Views\NextStudents\Edit.cshtml" />
+    <Content Include="Views\NextGradedCourses\Index.cshtml" />
+    <Content Include="Views\NextAuditCourses\Index.cshtml" />
+    <Content Include="Views\NextMasteryCourses\Index.cshtml" />
+    <Content Include="Views\NextRegistrations\Index.cshtml" />
+    <Content Include="Views\NextStudents\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\Courses\" />
     <Folder Include="Views\GradePointStates\" />
+    <Folder Include="Views\NextUniqueNumbers\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />
@@ -286,6 +345,30 @@
       <Project>{39ee02e5-5786-4c05-be13-a9cca941f3a8}</Project>
       <Name>Utility</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202409182126003_InitialCreate.resx">
+      <DependentUpon>202409182126003_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410170507382_AddNextUniqueNumberModels.resx">
+      <DependentUpon>202410170507382_AddNextUniqueNumberModels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410202340354_AddNextUniqueNumberModels1.resx">
+      <DependentUpon>202410202340354_AddNextUniqueNumberModels1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410210019158_AddNextUniqueNumberModels2.resx">
+      <DependentUpon>202410210019158_AddNextUniqueNumberModels2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410210338255_StoredProcedures.resx">
+      <DependentUpon>202410210338255_StoredProcedures.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202410211813505_Migrationbeforetesting.resx">
+      <DependentUpon>202410211813505_Migrationbeforetesting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
