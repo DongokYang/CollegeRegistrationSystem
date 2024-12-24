@@ -18,3 +18,5 @@ C:\Users\marti\OneDrive\RRC\ADEV\Assignment 05 Files\BITCollege_DY\Utility\obj\D
 C:\Users\marti\OneDrive\RRC\ADEV\Assignment 05 Files\BITCollege_DY\Utility\obj\Debug\Utility.pdb
 C:\Users\marti\OneDrive\RRC\ADEV\Assignment 05 Files\BITCollege_DY\Utility\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\marti\OneDrive\RRC\ADEV\Assignment 05 Files\BITCollege_DY\Utility\obj\Debug\Utility.csproj.Up2Date
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\Utility\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\Utility\obj\Debug\Utility.csproj.Up2Date

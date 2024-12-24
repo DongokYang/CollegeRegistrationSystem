@@ -1,0 +1,93 @@
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeWindows.exe.config
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeWindows.exe
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeWindows.pdb
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.csproj.AssemblyReference.cache
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.csproj.SuggestedBindingRedirects.cache
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.BatchUpdate.resources
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.BITCollege.resources
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.Grading.resources
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.History.resources
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.Properties.Resources.resources
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.StudentData.resources
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.csproj.GenerateResource.cache
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.csproj.CoreCompileInputs.cache
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.exe
+C:\Users\nturner\OneDrive - Red River College\Desktop\docx\Assignment 06 Files\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeWindows.exe.config
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeWindows.exe
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeWindows.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeService.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollege_DY.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\EntityFramework.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\EWSoftware.MaskedLabelControl.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Utility.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.Optimization.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.Mvc.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\WebGrease.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.WebPages.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.Razor.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Antlr3.Runtime.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Newtonsoft.Json.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeService.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollegeService.dll.config
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollege_DY.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\BITCollege_DY.dll.config
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\EWSoftware.MaskedLabelControl.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\EWSoftware.MaskedLabelControl.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Utility.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\EntityFramework.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.Optimization.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.Mvc.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.WebPages.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.Razor.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Newtonsoft.Json.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.csproj.AssemblyReference.cache
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.BatchUpdate.resources
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.BITCollege.resources
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.Grading.resources
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.History.resources
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.Properties.Resources.resources
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.StudentData.resources
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.csproj.GenerateResource.cache
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.csproj.CoreCompileInputs.cache
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITColle.747D43AD.Up2Date
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.exe
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\obj\Debug\BITCollegeWindows.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.Agent.Intercept.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.DependencyCollector.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.Web.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.WindowsServer.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.ApplicationInsights.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Buffers.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Memory.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.DependencyCollector.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.DependencyCollector.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.PerfCounterCollector.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.PerfCounterCollector.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.ServerTelemetryChannel.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.Web.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.Web.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.WindowsServer.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AI.WindowsServer.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.ApplicationInsights.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.ApplicationInsights.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Buffers.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Memory.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\BITCollegeWindows\BITCollegeWindows\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

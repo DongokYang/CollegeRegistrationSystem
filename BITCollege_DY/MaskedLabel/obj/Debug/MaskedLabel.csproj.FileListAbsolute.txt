@@ -1,0 +1,14 @@
+C:\Users\lauri\Desktop\Assignment 7 Files\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.xml
+C:\Users\lauri\Desktop\Assignment 7 Files\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.dll
+C:\Users\lauri\Desktop\Assignment 7 Files\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.pdb
+C:\Users\lauri\Desktop\Assignment 7 Files\MaskedLabel\obj\Debug\MaskedLabel.csproj.AssemblyReference.cache
+C:\Users\lauri\Desktop\Assignment 7 Files\MaskedLabel\obj\Debug\MaskedLabel.csproj.CoreCompileInputs.cache
+C:\Users\lauri\Desktop\Assignment 7 Files\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.dll
+C:\Users\lauri\Desktop\Assignment 7 Files\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.xml
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\MaskedLabel\bin\Debug\EWSoftware.MaskedLabelControl.pdb
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\MaskedLabel\obj\Debug\MaskedLabel.csproj.AssemblyReference.cache
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\MaskedLabel\obj\Debug\MaskedLabel.csproj.CoreCompileInputs.cache
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.dll
+C:\Users\marti\OneDrive\바탕 화면\BITCollege_DY\MaskedLabel\obj\Debug\EWSoftware.MaskedLabelControl.pdb
